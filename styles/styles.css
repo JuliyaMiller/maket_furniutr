@@ -1,0 +1,1043 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 1440px;
+    height: 5620px;
+    margin: auto;
+    position: relative;
+    background-color: #fff;
+    
+}
+
+    /* -------------Header_menu-----------------*/
+.header{
+    width: 1440px;
+    height: 975px;
+    position: absolute;
+    
+}
+.menu{
+    width: 1440px;
+    height: 208px;
+    position: absolute;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;   
+}
+.logo{
+    width: 177px;
+    height: 48px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 48px;
+    letter-spacing: 1px;
+    margin-left: 100px;
+    margin-top: 71px;
+    margin-right: 145px;
+}
+.home{
+    width: 55px;
+    height: 23px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: normal;
+    line-height: 22.8px;
+    margin-top: 77px;
+    margin-right: 106px;
+}    
+.about{
+    width: 55px;
+    height: 23px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: normal;
+    line-height: 22.8px;
+    margin-top: 77px;
+    margin-right: 106px;
+}
+.collection{
+    width: 93px;
+    height: 23px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: normal;
+    line-height: 22.8px;
+    margin-top: 77px;
+    margin-right: 106px;
+}
+.shop{
+    width: 48px;
+    height: 23px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: normal;
+    line-height: 22.8px;
+    margin-top: 77px;
+    margin-right: 193px;
+}
+.vector{
+    width: 18px;
+    height: 21.49px;
+    margin-top: 88.5px;
+    margin-right: 85px;
+}
+.input_space{
+    width: 27px;
+    height: 29.02px;
+    margin-top: 80.98px;
+    margin-right: 124px;
+}
+
+    /* -----------------Первый блок-------------------*/
+.header_block{
+    width: 1425px;
+    height: 767px;
+    position: absolute;
+}
+.rectangle_5{
+    width: 35px;
+    height: 264px;
+    background-color: #F7515C;
+    position: absolute;
+    top: 232px;
+}
+.header_block_h2{
+    position: absolute;
+    left: 100px;
+    top: 330px;
+    width: 171px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+    color: #F7515C;
+}
+.header_block_h3{
+    position: absolute;
+    left: 100px;
+    top: 392px;
+    width: 650px;
+    height: 227px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    font-style: normal;
+    line-height: 67.05px;
+    color: #282A30;
+}
+.rectangle_2{
+    width: 207px;
+    height: 78px;
+    position: absolute;
+    top: 666px;
+    left: 100px;
+    background-color: #F7515C;
+    z-index: 1;
+}    
+.rectangle_2:hover{
+    width: 207px;
+    height: 78px;
+    position: absolute;
+    top: 666px;
+    left: 100px;
+    background-color: red;
+    z-index: 2;
+}
+
+.h3{
+    width: 98px;
+    height: 27px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 692px;
+    left: 154px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 26.82px;
+    z-index: 3;
+}
+
+    /*Кнопка для видео*/
+.ellipse_6{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    position: absolute;
+    top: 677px;
+    left: 374px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+}  
+.ellipse_6:hover{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    position: absolute;
+    top: 677px;
+    left: 374px;
+    background:rgba(0, 0, 0, 0.15);
+    z-index: 2;
+}  
+.polygon_1{
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 696px;
+    left: 395px;
+    color: #282A30;
+    border-radius: 1px;
+    z-index: 3;
+}
+/***********************************/
+.h3_vidio{
+    width: 143px;
+    height: 27px;
+    color: #282A30;
+    position: absolute;
+    top: 693px;
+    left: 456px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 26.82px;  
+}
+    /*Линии*/
+.group_16{
+    width: 896px;
+    height: 698.5px;
+    position: absolute;
+    top: 217.5px;
+    left: -45px;
+}
+.vector_7{
+    position: absolute;
+    top: 622.5px;
+    height: 2px;
+    border-right: 896px solid rgba(0, 0, 0, 0.05);
+}
+.vector_6{
+    position: absolute;
+    top: 349.5px;
+    height: 2px;
+    border-right: 896px solid rgba(0, 0, 0, 0.05);
+}
+.vector_5{
+    position: absolute;
+    top: 76.5px;
+    height: 2px;
+    border-right: 896px solid rgba(0, 0, 0, 0.05);
+}
+.vector_8{
+    position: absolute;
+    left: 507px;
+    height: 698.5px;
+    border-right: 2px solid rgba(0, 0, 0, 0.05);
+}
+.vector_4{
+    position: absolute;
+    left: 765px;
+    height: 698.5px;
+    border-right: 2px solid rgba(0, 0, 0, 0.05);
+}
+.vector_3{
+    position: absolute;
+    left: 233px;
+    height: 698.5px;
+    border-right: 2px solid rgba(0, 0, 0, 0.05);
+}
+/***********************************/
+ 
+    /*Фото 1*/
+.img_1{
+    width: 465px;
+    height: 698px;
+    position: absolute;
+    top: 208px;
+    left: 837px;
+}
+    /*Тень по фото 1*/
+.rectangle_4{
+    width: 451px;
+    height: 702px;
+    position: absolute;
+    top: 273px;
+    left: 887px;
+    background-color:rgba(229, 229, 229, 0.1);
+}
+    /*Точки справа от фото*/
+.group_12{
+    width: 78px;
+    height: 223.52px;
+    position: absolute;
+    top: 226.76px;
+    left: 1322px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 0;  
+}
+.group_12 > div{
+    width: 6px;
+    height: 6.45px;
+    border-radius: 50%;
+    background: rgba(59, 76, 104, 1);
+    opacity: 0.1; 
+    margin-bottom: 21.49px;
+    margin-right: 20px;
+}
+    /*---------------Второй блок----------------*/
+.about_block{
+    width: 1177px;
+    height: 810.29px;
+    position: absolute;
+    top: 1225px;
+    left: 52px;
+}
+    /*Фото 2*/
+.img_2{
+    width: 483px;
+    height: 723px;
+    position: absolute;
+    top: 0px;
+    left: 48px;
+}
+.rectangle_8{
+    width: 48px;
+    height: 180px;
+    position: absolute;
+    top: 521px;
+    left: 0px;
+    background:#282A30;
+}
+.rectangle_6{
+    width: 49px;
+    height: 305px;
+    position: absolute;
+    top: 332px;
+    left: 531px;
+    background:#282A30;
+}
+/*************************/
+.h3_block2{
+    width: 194px;
+    height: 73px;
+    position: absolute;
+    top: 52px;
+    left: 659px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    font-style: normal;
+    line-height: 73px;
+    color: #282A30;
+}
+.h2_block2{
+    width: 491px;
+    height: 122px;
+    position: absolute;
+    top: 125px;
+    left: 659px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    font-style: normal;
+    line-height: 121.9px;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #282A30;
+}
+.p_block2{
+    width: 518px;
+    height: 128px;
+    position: absolute;
+    top: 302px;
+    left: 659px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 48px;
+    color: rgba(40, 42, 48, 0.5);
+}
+/********* красная кнопка *********/
+.rectangle_2_block2{
+    width: 230px;
+    height: 78px;
+    position: absolute;
+    top: 478px;
+    left: 659px;
+    background-color: #F7515C;
+    z-index: 1;
+}
+.rectangle_2_block2:hover{
+    width: 230px;
+    height: 78px;
+    position: absolute;
+    top: 478px;
+    left: 659px;
+    background-color: red;
+    z-index: 2;
+}
+.h4_block2{
+    width: 125px;
+    height: 27px;
+    color: #FFFFFF;
+    position: absolute;
+    top:504px;
+    left: 712px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 26.82px;
+    z-index: 3;
+}
+    /*Точки*/
+.group_13{
+    width: 512.46px;
+    height: 338.88px;
+    position: absolute;
+    top:504px;
+    left: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 0;  
+}
+.group_13 > div{
+    width: 9.08px;
+    height: 9.78px;
+    border-radius: 50%;
+    background: rgba(59, 76, 104, 1);
+    opacity: 0.1; 
+    margin-bottom: 32.58px;
+    margin-right: 30.32px;
+}
+    /*----------------Третий блок--------------------*/
+.more_value{
+    width: 1228px;
+    height: 1026.29px;
+    position: absolute;
+    top: 2242px;
+    left: 86px;
+}
+.h3_block3{
+    width: 428px;
+    height: 49px;
+    position: absolute;
+    top: 0px;
+    left: 9px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 48.76px;
+    color: #000000;
+}
+.h2_block3{
+    width: 491px;
+    height: 122px;
+    position: absolute;
+    top: 49px;
+    left: 9px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    font-style: normal;
+    line-height: 121.9px;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(40, 42, 48, 0.5);
+}
+    /*Фото 3*/
+.img_3{
+    width: 1009px;
+    height: 577px;
+    position: absolute;
+    top: 258px;
+    left: 130px;
+    z-index: 1;
+}
+    /*Тень под фото*/
+.rectangle_15{
+    width: 940px;
+    height: 511px;
+    position: absolute;
+    top: 324px;
+    left: 149px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.25);
+}
+
+    /*Первый сектор третьего блока*/
+.rectangle_10_1{
+    width: 449px;
+    height: 199px;
+    position: absolute;
+    top: 348px;
+    left: 0px;
+    z-index: 2;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 20px 4px 100px 0px rgba(0, 0, 0, 0.1);
+}
+.name_1{
+    width: 129px;
+    height: 24px;
+    position: absolute;
+    top: 58px;
+    left: 117px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 24.38px;
+    color: #282A30;
+}
+.text_1{
+    width: 238px;
+    height: 42px;
+    position: absolute;
+    top: 95px;
+    left: 117px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 19.1px;
+    color: rgba(40, 42, 48, 0.4);
+}
+.ellipse_5{
+    width: 51px;
+    height: 51px;
+    position: absolute;
+    top: 44px;
+    left: 44px;
+    border-radius: 50%;
+    background: rgba(247, 81, 92, 0.05);
+}
+.number{
+    width: 12px;
+    height: 23px;
+    position: absolute;
+    top: 58px;
+    left: 64px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 22.98px;
+    color: #F7515C;
+}
+/************************/
+    /*Второй сектор третьего блока*/
+.rectangle_10_2{
+    width: 449px;
+    height: 199px;
+    position: absolute;
+    top: 207px;
+    left: 649px;
+    z-index: 2;
+    background: #FFFFFF;
+    box-shadow: 20px 4px 100px rgba(0, 0, 0, 0.1);
+}
+.name_2{
+    width: 164px;
+    height: 24px;
+    position: absolute;
+    top: 58px;
+    left: 117px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 24.38px;
+    color: #282A30;
+}
+.text_2{
+    width: 272px;
+    height: 65px;
+    position: absolute;
+    top: 95px;
+    left: 117px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 19px;
+    color: rgba(40, 42, 48, 0.4);
+}
+/***********************************/
+
+    /*Третий сектор третьего блока*/
+.rectangle_10_3{
+    width: 449px;
+    height: 199px;
+    position: absolute;
+    top: 720px;
+    left: 779px;
+    z-index: 2;
+    background: #FFFFFF;
+    box-shadow: 20px 4px 100px rgba(0, 0, 0, 0.1);
+}
+.name_3{
+    width: 158px;
+    height: 24px;
+    position: absolute;
+    top: 58px;
+    left: 117px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 24.38px;
+    color: #282A30;
+}
+.text_3{
+    width: 255px;
+    height: 42px;
+    position: absolute;
+    top: 95px;
+    left: 117px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 19px;
+    color: rgba(40, 42, 48, 0.4);
+}
+/***********************************/
+    /*Точки*/
+.group_14{
+    width: 512.46px;
+    height: 338.88px;
+    position: absolute;
+    top:720px;
+    left: 199px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 0;  
+}
+.group_14 > div{
+    width: 9.1px;
+    height: 9.78px;
+    border-radius: 50%;
+    background: rgba(59, 76, 104, 1);
+    opacity: 0.1; 
+    margin-bottom: 32.58px;
+    margin-right: 30.32px;
+}
+
+/*----------------Четвертый блок--------------------*/
+.product{
+    width: 1219px;
+    height: 642px;
+    position: absolute;
+    top:3434px;
+    left: 95px;
+}
+.h3_block4{
+    width: 428px;
+    height: 49px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 48.76px;
+    color: #282A30;
+}
+.h2_block4{
+    width: 422px;
+    height: 122px;
+    position: absolute;
+    top: 49px;
+    left: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    font-style: normal;
+    line-height: 121.9px;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(40, 42, 48, 1);
+}
+/********* Кнопка влево ************/
+.rectangle_17{
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    border: 2px solid #282A30;
+    position: absolute;
+    top: 98px;
+    left: 1065px;
+    z-index: 1;
+}
+.rectangle_17:hover{
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    border: 2px solid #282A30;
+    background-color: #d6dae4;
+    position: absolute;
+    top: 98px;
+    left: 1065px;
+    z-index: 2;
+}
+
+.vector_1{
+    width: 7px;
+    height: 13px;
+    position: absolute;
+    top: 116px;
+    left: 1086px;
+    z-index: 3;
+}
+/********* Кнопка вправо ************/
+.rectangle_16{
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    border: 2px solid #282A30;
+    position: absolute;
+    top: 98px;
+    left: 1160px; 
+    z-index: 1;
+}
+.rectangle_16:hover{
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    border: 2px solid #282A30;
+    background-color: #d6dae4;
+    position: absolute;
+    top: 98px;
+    left: 1160px;
+    z-index: 2;
+}
+.vector_2{
+    width: 7px;
+    height: 13px;
+    position: absolute;
+    top: 115px;
+    left: 1180px;
+    z-index: 3;
+}
+/***********************************/
+
+.product_menu{
+    width: 1219px;
+    height: 427px;
+    position: absolute;
+    top: 215px;
+    left: 0px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;   
+}
+/*********** Первый сектор четвертого блока***********/
+.section1{
+    width: 278px;
+    height: 427px;
+    overflow: hidden;
+}
+.img_4{
+    width: auto;
+    height: 127%;
+    margin: -115px;
+    filter: drop-shadow(0px 4px 100px rgba(0, 0, 0, 0.02));
+    position: relative;
+    z-index: 1;
+}
+.name{
+    width: 225px;
+    height: 27px;
+    margin-left: 26px;
+    margin-top: 44px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 26.82px;
+    color: #282A30;
+
+    position: relative;
+    z-index: 2;
+}
+.price{
+    width: 53px;
+    height: 27px;
+    margin-left: 112px;
+    margin-top: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 26.82px;
+    color: rgba(40, 42, 48, 0.3);
+
+    position: relative;
+    z-index: 2;
+}
+.price:hover{
+    width: 53px;
+    height: 27px;
+    margin-left: 112px;
+    margin-top: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 26.82px;
+    color: blue;
+    position: absolute;
+    z-index: 3;
+}
+
+/*********** Второй сектор четвертого блока***********/
+.section2{
+    width: 277px;
+    height: 427px;
+    overflow: hidden;
+}
+.img_5{
+    width: auto;
+    height: 127%;
+    margin: -115px;
+    
+    filter: drop-shadow(0px 4px 100px rgba(0, 0, 0, 0.02));
+    position: relative;
+    z-index: 1;
+}
+/*********** Третий сектор четвертого блока***********/
+.section3{
+    width: 277px;
+    height: 427px;
+    overflow: hidden;
+}
+.img_6{
+    width: auto;
+    height: 127%;
+    margin: -115px;
+    
+    filter: drop-shadow(0px 4px 100px rgba(0, 0, 0, 0.02));
+    position: relative;
+    z-index: 1;
+}
+.name_3_4{
+    width: 145px;
+    height: 27px;
+    margin-left: 66px;
+    margin-top: 44px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 26.82px;
+    color: #282A30;
+    position: relative;
+    z-index: 2;
+}
+/*********** Четвертый сектор четвертого блока***********/
+.section4{
+    width: 278px;
+    height: 427px;
+    overflow: hidden;
+}
+.img_7{
+    width: auto;
+    height: 127%;
+    margin: -115px;
+    
+    filter: drop-shadow(0px 4px 100px rgba(0, 0, 0, 0.02));
+    position: relative;
+    z-index: 1;
+}
+.name_4{
+    width: 123px;
+    height: 27px;
+    margin-left: 78px;
+    margin-top: 44px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 26.82px;
+    color: #282A30;
+    position: relative;
+    z-index: 2;
+}
+/*-------------------------- main -----------------------------*/
+.h1_main{
+    width: 245px;
+    height: 122px;
+    position: absolute;
+    top: 4508px;
+    left: 95px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    font-style: normal;
+    line-height: 121.9px;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(40, 42, 48, 1);
+}
+.h2_main{
+    width: 432px;
+    height: 122px;
+    position: absolute;
+    top: 4630px;
+    left: 95px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    font-style: normal;
+    line-height: 121.9px;
+    color: rgba(40, 42, 48, 1);
+    z-index: 2;
+}
+/********* красная кнопка *********/
+.rectangle_19{
+    width: 240px;
+    height: 90px;
+    position: absolute;
+    top: 4816px;
+    left: 95px;
+    background-color: #F7515C;
+    z-index: 1;
+}
+.rectangle_19:hover{
+    width: 240px;
+    height: 90px;
+    position: absolute;
+    top: 4816px;
+    left: 95px;
+    background-color: red;
+    z-index: 2;
+}
+.h3_main{
+    width: 102px;
+    height: 32px;
+    color:#FFEDED;
+    position: absolute;
+    top:4845px;
+    left: 164px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    font-style: normal;
+    line-height: 32px;
+    z-index: 3;
+}
+/***********************************/
+    /*Фото 8*/
+.img_8{
+    width: 506px;
+    height: 714px;
+    position: absolute;
+    top: 4354px;
+    left: 745px;
+    z-index: 2;
+}
+/************ Тень **********/
+.rectangle_20{
+    width: 739px;
+    height: 504px;
+    position: absolute;
+    top: 4256px;
+    left: 375px;
+    background: rgba(251, 251, 251, 0.4);
+    z-index: 1;
+}
+/******** Точки *******/
+.group_main{
+    width: 78.84px;
+    height: 333.2px;
+    position: absolute;
+    top: 4740px;
+    left: 1272.56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 0;  
+}
+.group_main > div{
+    width: 9.1px;
+    height: 9.61px;
+    border-radius: 50%;
+    background: rgba(59, 76, 104, 1);
+    opacity: 0.1; 
+    margin-bottom: 32.04px;
+    margin-right: 30.32px;
+}
+/********** Линия перед footer *********/
+.line{
+    width: 1242px;
+    height: 2px;
+    position: absolute;
+    top: 5216px;
+    left: 99px;
+    background: rgba(40, 42, 48, 1);
+
+}
+
+/*----------------------- Footer --------------------------*/
+.footer{
+    width: 1244px;
+    height: 402px;
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 0;   
+}
+.footer > div{
+    margin-top: 100px;
+ }
+div > .h3_footer_discount, .h3_footer{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #282A30;
+    padding-bottom: 51px;
+}
+div > .p_footer_discount,.p_footer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: rgba (40, 42, 48, 0.8);
+    padding-bottom: 27px;
+}
+h3.h3_footer_discount{
+    padding-bottom: 34px;
+    line-height: 150%;
+}
